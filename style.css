@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+}
+
+.menu{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(material/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+  
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(231, 231, 231);
+    cursor: pointer;
+    padding-top: 2.8%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.671);
+    gap: 20px;
+}
+li:hover{
+    color: rgba(255, 255, 255, 0.89);
+    transition: 0.5s;
+
+
+}
+
+.logo{
+    font-size: 180%;
+}
+
+.left{
+    margin-left: 58%;
+    margin-top: 7%;
+    color: white;
+}
+
+.text{
+    width: 70%;
+    font-size: 50px;
+    text-align: left;
+}
+
+.para2{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+button{
+    margin-top: 30px;
+    height: 8vh;
+    width: 30%;
+    padding: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.dholu{
+    background-color: rgb(0, 105, 241);
+    border: none;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+.dholu:hover{
+    box-shadow: 3px 3px 8px rgba(5, 5, 5, 0.356);
+}
+
+.bholu{
+    background: transparent;
+    border: 1.5px solid white;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.bholu:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    transition: 0.6s;
+
+}
+
+.back{
+    background-color: rgb(20, 20, 20);
+    margin-top: 8.8%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bleft{
+    width: 26%;
+    color: rgba(255, 255, 255, 0.671);
+
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para3{
+    margin-top: 15px;
+
+}
+
+.text2{
+    font-size: 40px;
+}
+
+.btn2{
+    background-color: rgb(0, 105, 241);
+    border: none;
+    border-radius: 4px;
+    height: 8vh;
+    width: 40%;
+    transition: 0.6;
+}
+
+.btn2:hover{
+    box-shadow: 3px 3px 8px rgba(5, 5, 5, 0.356);
+
+}
+
+.banda{
+    width: 560px;
+}
+
+.row{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    
+    
+}
+
+.circle{
+    background-color: rgb(0, 105, 241);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    rotate: 40deg;
+    margin-bottom: 20px;
+}
+
+.court{
+    color: white;
+    width: 26%;
+    margin: 20px;
+    
+}
+
+.Service{
+    font-size: 60px;
+    width: 100%;
+    margin: 20px;
+    margin-left: 8%;
+    color: white;
+
+}
+
+.para4{
+    color: rgba(255, 255, 255, 0.671);
+    margin-top: 10px;
+
+}
+
+.security{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    color: rgb(231, 231, 231);
+}
+
+.sleft{
+    width: 50%;
+
+}
+
+.secure{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.hammer{
+    width: 700px;
+}
+
+
+.sright{
+    
+    width: 30%;
+}
+
+.sright > h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para5{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.671);
+
+}
+
+.slider{
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(20, 20, 20);
+    color: rgb(231, 231, 231);
+}
+
+.slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4.4em;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 16.6px;
+}
+
+.slide > li{
+    color: rgba(255, 255, 255, 0.671);
+    cursor: pointer;
+
+}
+
+.slide > li:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+.slide > li:active{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+}
+
+hr{
+    margin-top: 26px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(61, 61, 61, 0.432);
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -48px;
+}
+
+.left1{
+    width: 22%;
+}
+
+.invest{
+    font-size: 50px;
+    margin-bottom: 14px;
+}
+
+.para6{
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.btn3{
+    background-color: rgb(0, 105, 241);
+    border: none;
+    border-radius: 4px;
+    height: 6.8vh;
+    width: 40%;
+    transition: 0.6;
+}
+
+.btn3:hover{
+    box-shadow: 3px 3px 8px rgba(5, 5, 5, 0.356);
+
+}
+
+.right1{
+    width: 40%;
+}
+
+
+.pic{
+    width: 580px;
+}
+
+.pract{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    flex-wrap: wrap;
+    
+}
+
+.area{
+    width: 90%;
+    font-size: 50px;
+    
+}
+
+.main5{
+   width: 100%;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.asset{
+    background-color: rgb(10, 10, 10);
+    opacity: 75%;
+    width: 30%;
+    height: 18vh;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.asset > h4{
+    width: 10%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.asset > h5{
+    width: 10%;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.397);
+
+
+}
+
+.asset > img{
+    height:6px;
+    width: 10px;
+    rotate: -90deg;
+    margin-top: 34%;
+    margin-left: -30%;
+}
+
+.asset:hover{
+    background-color: rgb(0, 145, 241);
+
+}
+
+.test{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+.lefty{
+    font-size: 30px;
+}
+
+.acc1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 6%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+
+.acc1:hover{
+    background-color: rgb(0, 105, 241);
+
+    border-radius: 6px;
+
+}
+
+.acc1 > img{
+    width: 46px;
+    border-radius: 50%;
+    
+}
+
+.paras > .para7{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+.para8{
+    font-size: 16px;
+    
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.397);
+    
+}
+
+.righty{
+    width: 44.8%;
+}
+
+.para9{
+    font-size: 34px;
+}
+
+.name{
+    font-size: 18px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.test2{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+.lefty2{
+ width: 40%;   
+}
+
+.text4{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.righty2{
+    width: 36%;
+}
+
+
+.para11{
+    color: rgba(255, 255, 255, 0.397);
+
+}
+
+
+
+
+.box2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(20, 20, 20);
+    
+}
+
+.left3{
+    width: 24.9%;
+    margin-left: -16px;
+}
+
+.invest1{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.para6{
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.btn3{
+    background-color: rgb(0, 105, 241);
+    border: none;
+    border-radius: 4px;
+    height: 6.8vh;
+    width: 40%;
+}
+
+.right3{
+    width: 40%;
+    margin-right: 28px;
+}
+
+
+
+.pic{
+    width: 580px;
+    border-radius: 4px;
+}
+
+.Write{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+
+}
+
+.Write > h1{
+    font-size: 50px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input{
+    width: 42%;
+    height: 6vh;
+    margin: 2.5px;
+    border-radius: 4px;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    padding-left: 12px;
+    color: white;
+    outline: none;
+}
+
+input:focus{
+    background-color: rgb(29, 29, 29);
+
+}
+
+textarea{
+    margin: 2.5px;
+    border-radius: 4px;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    padding-left: 12px;
+    color: white;
+    outline: none;
+}
+
+textarea:focus{
+    background-color: rgb(29, 29, 29);
+
+}
+
+.form > button{
+    background-color: rgb(0, 105, 241);
+    border: none;
+    border-radius: 4px;
+    height: 6.8vh;
+    width: 14%;
+    margin-left: 6.8%;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+
+}
+
+.footer > ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 28em;
+    margin-left: 40px;
+    font-size: 12px;
+    color: white;
+}
+
+.foot > p{
+    text-align: left;
+    margin-left: 5.6em;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.397);
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline 3px rgba(0, 104, 241, 0.233);
+}
+
+
+.foot1 > p{
+    text-align: left;
+    margin-left: 9.2em;
+    margin-right: 1em;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.397);
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline 3px rgba(0, 104, 241, 0.233);
+}
+
+.foot2 > p{
+    text-align: left;
+    margin-left: 13.4em;
+    margin-right: 1em;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.397);
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline 3px rgba(0, 104, 241, 0.233);
+}
+
+.fut{
+    display: flex;
+
+}
+
+.foot > p:hover{
+    text-decoration: underline 3px rgb(0, 104, 241);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.foot1 > p:hover{
+    text-decoration: underline 3px rgb(0, 104, 241);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.foot2 > p:hover{
+    text-decoration: underline 3px rgb(0, 104, 241);
+    color: white;
+    transition: 0.5s;
+
+
+}
+
+.foot3 > p:hover{
+    text-decoration: underline 3px rgb(0, 104, 241);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.para12{
+    font-weight: 600;
+}
+
+.goal{
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
+    width: 40px;
+    height: 4vh;
+    transition: 0.5s;
+}
+
+.papa{
+    display: flex;
+    gap: 4px;
+    margin-top: 22px;
+    margin-left: 11.6em;
+}
+
+.goal:hover{
+    background-color:  rgb(0, 104, 241);
+
+}
+
+.end{
+   width: 100%;
+   margin-top: 26%;
+   text-align: center;
+   color: white;
+}
